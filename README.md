@@ -1,6 +1,6 @@
 # Eco
 
 ## Тема проекта
-> Discord
+> Discord bot
 ### Библиотека
 > Discord
