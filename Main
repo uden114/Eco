@@ -41,5 +41,9 @@ async def check(ctx):
             await ctx.send(get_class(model="keras_model.h5", labels="labels.txt", image=f"images/{file_name}"))
     else:
         await ctx.send("Вы забыли картинку")
-    
+
+@bot.command()
+async def eco(ctx):
+    if ctx.message.attachment:
+        
 bot.run("Токен бота") 
