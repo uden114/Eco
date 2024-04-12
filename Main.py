@@ -50,4 +50,4 @@ async def eco(ctx):
             file_URL = attachment.url
             await attachment.save(f"images/{file_name}")
             await ctx.send(get_class(model="keras_model_2.h5", labels="labels_2.txt", image=f"images/{file_name}"))
-bot.run("MTE0OTczNjY5NjUxMDk0MzM2Mw.GGzurz.iJC10HVAdhwHbf82f6Tof4NYdzxE0uR72fQvLo") 
+bot.run("Токен бота") 
